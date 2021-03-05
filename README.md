@@ -2,6 +2,12 @@
 
 'atq/at' scheduled job timer command line wrapper.
 
+#### what is atq 
+
+atq/at is pre-installd majaor linux dist. alarm or scheduling timer run once at specified.
+
+https://manpages.debian.org/jessie/at/at.1.en.html
+
 ## Install 
 
 ```shell
