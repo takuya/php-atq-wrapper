@@ -1,0 +1,41 @@
+{
+    "name": "takuya/php-atq-wrapper",
+    "description": "atq/atrm php wrapper class",
+    "type": "library",
+    "homepage": "https://github.com/takuya/php-atq-wrapper",
+    "license": "GPL-3.0-or-later",
+    "version": "1.0",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "takuya",
+            "email": "takuya.1stnospam+nospam@gmail.com"
+        }
+    ],
+    "keywords": [
+        "atq",
+        "atrm",
+        "atd",
+        "schedule"
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "SystemUtil\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "Helpers/helpers.php"
+        ],
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "takuya/process": "^1.3"
+    }
+}
